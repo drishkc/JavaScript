@@ -4,7 +4,7 @@ const heading1 = document.querySelector('#heading1');
 console.log(3);
 let isToggled = false;
 
-container.addEventListener('click', () => {
+button.addEventListener('click', () => {
 
     if(!isToggled){
         heading1.style.color = 'black';
